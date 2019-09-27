@@ -8,11 +8,11 @@ webpage = Flask(__name__);
 
 @webpage.route('/')
 def index():
-  return render_template('index.htm');
+	return render_template('index.htm');
 
 @webpage.errorhandler(404)
 def not_found(error):
-  return render_template('404.htm'), 404;
+	return render_template('404.htm'), 404;
 
 print(" * Bienvenido al servidor");
 if __name__ == "main":
