@@ -14,6 +14,6 @@ def index():
 def not_found(error):
   return render_template('404.htm'), 404;
 
-print(" * Bienvenido al servidor
+print(" * Bienvenido al servidor");
 if __name__ == "main":
-  webpage.run(port=7000, debug=True, host='0.0.0.0');
+	webpage.run(port=7000, debug=True, host='0.0.0.0');
